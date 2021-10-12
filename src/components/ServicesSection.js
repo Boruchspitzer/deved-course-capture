@@ -66,10 +66,11 @@ p{
 }
 `;
 const Cards = styled.div`
-display: flex;
+display: flexbox;
 flex-wrap: wrap;
 `;
 const Card = styled.div`
+margin: 1rem 1rem 1rem 0rem;
 flex-basis: 20rem;
 .icon{
     display: flex;

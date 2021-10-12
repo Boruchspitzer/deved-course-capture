@@ -12,6 +12,7 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, quo!</p>
                 </div>
             </div>
+            <div className="faq-line"></div>
             <div className="quastion">
                 <h4>payment methoods</h4>
                 <div className="answer">
@@ -19,6 +20,8 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, quo!</p>
                 </div>
             </div>
+            <div className="faq-line"></div>
+
             <div className="quastion">
                 <h4>What products do you offer?</h4>
                 <div className="answer">
@@ -26,6 +29,8 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, quo!</p>
                 </div>
             </div>
+            <div className="faq-line"></div>
+
             <div className="quastion">
                 <h4>business hours?</h4>
                 <div className="answer">
@@ -33,6 +38,8 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, quo!</p>
                 </div>
             </div>
+            <div className="faq-line"></div>
+
             <div className="quastion">
                 <h4>refunds?</h4>
                 <div className="answer">
@@ -52,12 +59,21 @@ h2{
     padding-bottom: 2rem;
     font-weight: lighter;
 }
-faq-line{
+.faq-line{
     background: #cccccc;
-    height: 0.2rem;
-        
+    height: 0.5rem;
+    width: 100%;
 }
+.quastion{
+    padding: 3rem 0rem;
+    cursor: pointer;
+}
+.answer{
+    padding: 2rem 0rem;
+    p{
+        padding: 1rem 0rem;
 
-
+    }
+}
 `;
 export default FaqSection;
