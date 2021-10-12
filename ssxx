@@ -1,0 +1,47 @@
+[33mcommit de611b49c312528715ac251301a7dfb740df816b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Thu Oct 7 07:32:43 2021 -0400
+
+    6. styled components
+
+[33mcommit 340bc6ce7a6eb34801541852e1e323f32c76f5d3[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Tue Oct 5 07:34:23 2021 -0400
+
+    5. intro to styled components
+
+[33mcommit 3e6f7cf82a08df8d14620579b6ebdecc708cd892[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Sun Oct 3 14:10:36 2021 -0400
+
+    4. faq section
+
+[33mcommit 3845da01bf9f85c8b2afd573a15de57e0ae3d1f3[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Sun Oct 3 09:49:05 2021 -0400
+
+    3. services section
+
+[33mcommit eeb54ee1b146697673b13b3a0850e41145b5eecd[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Sun Oct 3 08:30:17 2021 -0400
+
+    2.  About us section
+
+[33mcommit 8ea9e50c1637b289e64e67a8ab79a3ad3fb65d79[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Fri Oct 1 07:05:01 2021 -0400
+
+    1. initial setup
+
+[33mcommit eb1f74bc45c795c2cd1c66656c912311faa65623[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Fri Oct 1 07:04:33 2021 -0400
+
+    1. initial setup
+
+[33mcommit cfb4af24d8b7c71e4c350d8e71b22380f52863bf[m
+Author: boruch spitzer <coderoney@gmail.com>
+Date:   Thu Sep 30 08:02:29 2021 -0400
+
+    Initialize project using Create React App

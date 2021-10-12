@@ -1,17 +1,19 @@
 import React from "react";
+//images
 import clock from '../img/clock.svg';
 import diaphragm from '../img/diaphragm.svg';
 import money from '../img/money.svg';
 import teamwork from '../img/teamwork.svg';
 import home2 from '../img/home2.png';
-import { About, Description, Image, Hide } from '../Styles';
+//imported styles
+import { About, Description, Image } from '../Styles';
 import styled from "styled-components";
 
 const ServicesSection = () => {
     return (
-        <About>
+        <Services>
             <Description>
-                <h2>Hige <span>quality</span>services</h2>
+                <h2>Hige <span>quality</span> services</h2>
                 <Cards>
                     <Card>
                         <div className="icon">
@@ -48,11 +50,12 @@ const ServicesSection = () => {
             <Image>
                 <img alt='icon' src={home2} />
             </Image>
-        </About>
+        </Services>
     )
 }
 
 const Services = styled(About)`
+display: flex;
 h2{
     padding-bottom: 5rem;
 
@@ -63,7 +66,6 @@ p{
 }
 `;
 const Cards = styled.div`
-padding-top:5rem ;
 display: flex;
 flex-wrap: wrap;
 `;
